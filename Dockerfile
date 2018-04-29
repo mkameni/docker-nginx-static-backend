@@ -1,5 +1,5 @@
 FROM centos:7
-LABEL description="adaware static backend"
+LABEL description="Nginx static backend"
 MAINTAINER Moise Kameni <moise.kameni@adaware.com>
 COPY ./nginx/repos.d/nginx.repo /etc/yum.repos.d/nginx.repo
 RUN yum update -y \
